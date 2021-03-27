@@ -4,10 +4,10 @@ const server = require('apprun-dev-server');
 
 const build = (watch = false) => builder.build({
   entryPoints: ['src/main.tsx'],
-  outfile: 'dist/main.js',
+  outfile: 'dist/main.min.js',
   bundle: true,
   minify: true,
-  sourcemap: true,
+  sourcemap: false,
   watch
 });
 
