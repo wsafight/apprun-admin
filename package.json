@@ -1,0 +1,28 @@
+{
+  "name": "apprun-admin",
+  "version": "1.0.0",
+  "description": "apprun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node _build start",
+    "build": "node _build",
+    "tsc:watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsafight/apprun-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsafight/apprun-admin/issues"
+  },
+  "homepage": "https://github.com/wsafight/apprun-admin#readme",
+  "devDependencies": {
+    "apprun": "^2.27.7",
+    "apprun-dev-server": "^1.3.2",
+    "esbuild": "^0.10.2"
+  }
+}
